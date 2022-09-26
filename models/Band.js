@@ -1,7 +1,9 @@
 'use strict';
-const { Model, DataTypes } = require('sequelize');
-const sequelize = new Sequelize(process.env.PG_URI)
+const { Model } = require('sequelize');
+//const sequelize = new Sequelize(process.env.PG_URI)
 
+
+module.exports = (sequelize, DataTypes) => {
   class Band extends Model {}
 
   Band.init({
@@ -32,3 +34,6 @@ const sequelize = new Sequelize(process.env.PG_URI)
     tableName: 'bands',
     timestamps: false
   });
+
+  return Band
+}

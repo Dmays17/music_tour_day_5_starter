@@ -1,22 +1,22 @@
 {
   "development": {
     "username": "postgres",
-    "password": "password",
-    "database": "alita",
+    "password": "DDDm2max",
+    "database": "music_tour",
     "host": "127.0.0.1",
     "dialect": "postgres"
   },
   "test": {
     "username": "postgres",
-    "password": "password",
-    "database": "alita",
+    "password": "DDDm2max",
+    "database": "music_tour",
     "host": "127.0.0.1",
     "dialect": "postgres"
   },
   "production": {
     "username": "postgres",
-    "password": "password",
-    "database": "alita",
+    "password": "DDDm2max",
+    "database": "music_tour",
     "host": "127.0.0.1",
     "dialect": "postgres"
   }
